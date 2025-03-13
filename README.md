@@ -1,3 +1,3 @@
 # Notes
 
-Notes I have taken while watch Udemy, Youtube or somethign else
+Notes I have taken while watch Udemy, Youtube or somethign else+
