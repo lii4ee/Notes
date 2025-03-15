@@ -69,5 +69,23 @@
     - Example
       - As a user, I want to rest my password so that I can regain account access
 
-## 
+## Acceptance Criteria
+    - Conditions that must be met for the story to be considered completed
 
+## Verification
+    - Ensure the product is being built correctly 
+    - Meets Design Specification
+    - eg
+      - Code reviews
+      - Static analysis
+      - walk through
+      - inspection
+
+## Validation
+    - Ensures the right prouct is being built
+      - Functional testing
+      - UAT
+      - Executing the code
+
+## Regression testing
+    - 
