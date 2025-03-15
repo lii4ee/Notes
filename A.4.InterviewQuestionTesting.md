@@ -122,3 +122,63 @@ Relies on frequent collaboration and communication refered as Agile Cerimonies
    - Tests sudden surges in traffic
 Tools - Jmeter, load runner
 
+## Software Testing Life Cycle
+1. Requirement Analysis 
+   - Understand what needs to be tested 
+2. Test Planning
+   - Creating test Startegy
+   - Estimating efforts
+3. Test Case Development
+   - Writing Test cases 
+   - Preparing test data
+4. Test Environment Setup
+   - Configurating the testing environment
+5. Test Execution 
+   - Running tests
+   - Logging defects
+6. Test Closure
+   - Documenting lessions learned
+   - Finalizing testing
+
+## Defect Life Cycle
+1. New - by Tester
+2. Assigned - To dev
+3. In progress - By Dev
+4. Fixed - By Dev
+5. Retest - By Tester
+6. Closed 
+7. Repoen
+- Defered
+- Rejected 
+- Duplicate
+- Not a bug
+
+## Functional Testing
+- Tests if software works as expected
+  - Unit Testing
+  - Integration
+  - System
+  - UAT
+
+## Non Functional Testing
+- Performance Testing
+- Usability
+- Load Testing
+- Stress testing
+- Security Testing
+
+## Boundary Value Analysis
+- BVA is a black box Testing technique where test cases are created for boundary values
+  - Min 
+  - Max just inside
+  - Max just outside
+- For a feild 1 - 100
+  - TC would be
+    - 0
+    - 1
+    - 2
+    - 99
+    - 100
+    - 101
+
+##
