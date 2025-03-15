@@ -310,5 +310,67 @@ for(String window: allWindows)
   { 
     driver.switchTo().window(window); 
   }
-}```
+}
+```
+
+## Implicit Wait
+```
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+```
+
+## Explicit Wait
+```
+WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+wait.until(ExpectedConditions.visibilityOfElement(By.id("id")));
+```
+
+## Fluent Wait
+```
+Wait <WebDriver> wait = new FluentWait<>(driver)
+                                        .withTimeout(Duration.ofSeconds(20))
+                                        .pollingEvery(Duration.ofSeconds(5))
+                                        .ignoring(NoSuchElementException.class);
+WebElement ele1 = wait.until(driver -> driver.findElement(by.id("id")));
+WebElement ele2 = wait.until(ExpectedConditions.visibilityOfElement(by.id("id")));
+```
+
+## Page Object Model - 
+- Design pattern that enhances test maintenance by seprating UI elements and test logic
+- By is used 
+- Simple Constructor
+
+## Page Factory
+- Is a design pattern that suggest to create seprate class for each page
+- @FindBy annotation is used
+- Enhanced version of POM
+```
+PageFactory.initElements(driver, this);
+```
+- is used to initilise in the constructor for webelement
+
+## Screen Shot
+```
+@After
+public void Screenshots(Scenario SceneObj)
+{
+  if(sceneObj.isFailed())
+  {
+    byte[] screenshot = ((takesScreenshot) drive).getScreenshotAs(OutputType.BYTES);
+    sceneObj.attach(screenshot, "image/png", sceneObj.getName());
+  }
+}
+```
+
+## JavaScript Executor
+```
+JavascriptExecutor js = (JavascriptExecutor) driver;
+js.executeScript("window.scrollBy(0,500)"); 
+```
+
+## Actions
+```
+Actions action = new Action(driver);
+WebElement element = driver.findElement(By.id("id"));
+action.moveToElement(element).perform();
+```
 
