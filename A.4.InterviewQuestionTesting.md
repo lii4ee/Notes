@@ -1,5 +1,5 @@
-## Software Development and Testing
-### SDLC
+# Software Development and Testing
+## SDLC
 1. **Planning and Requirement Analysis** 
     Business needs and Project fesability
 2. **System Design** 
@@ -219,3 +219,74 @@ Tools - Jmeter, load runner
 - Detailed instruction
 - After Test Strategy
 
+## TDD
+- TDD is a development approch where tests are written before writing the actual code.
+1. Write a failing test case
+2. Write minimal code to pass the test
+3. refactor and improve code while ensuring the test still passes
+- Benefits
+  - Reduces defects early
+  - Improve code quality
+  - maintainbility
+
+## BDD
+- Extents TDD by writing test cases in natural language using Gherkin Syntax
+  - Given : 
+  - When :
+  - Then :
+- Benefits
+  - Improved collab between testers, developers, business stake holders
+  - increases test readability
+
+## Definition of Done
+- DOD defines the criteria that must be met before a user story is considered complete
+- Eg
+  - Code is developed and reviewed 
+  - TC are written and passed
+  - No critical defects remain
+  - Feature is deployed to staging
+
+# Selenium
+
+## Internal Working of Selenium
+- after writing automated code
+- Selenium webdriver uses
+- JSON write protocol with
+- HTTP client as a communication handler
+- To communicate with the browser
+- Then the browser gives the response in the same way.
+
+## Selenium
+- Selenium is a open Source automation testing tool used for web application
+- Components
+  - Selenium IDE
+  - WebDriver - Tool used to interact wit browser
+    - RC
+    - Webdriver
+  - Selenium Grid
+- Limitation
+  - Cannot automate desktop application
+  - No buildt in reporting cabalities
+  - limited CAPTCHA support 
+  - OTP
+  - requires 3rd party for handling test management and execution
+
+## Element Locators
+1. id
+2. name
+3. classname
+4. tagname
+5. link Text
+6. Partial Link Text
+7. CSS selector
+8. Xpath
+
+## findElements() and findElement()
+- WebElement throws a exception if nothing is found
+- WebElements returns a list, if nothing if found returns a empty list
+
+## Dropdown in selenium
+`Select dropdown = new Select(driver.findElement(By.id("idName")));`
+`dropdown.selectByVisibleText("option1");`
+`dropdown.selectByIndex(2);`
+`dropdown.selectByValue("optionValue");`
