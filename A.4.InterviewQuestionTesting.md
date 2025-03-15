@@ -181,4 +181,41 @@ Tools - Jmeter, load runner
     - 100
     - 101
 
-##
+## Equivalence Partitioning
+- Divides input data into valid and invalid classes
+- So that testing just one value from each class suffices
+- For 1 - 100
+  - 1 to 100 test 50
+  - <1 test -5
+  - >100 test 150
+
+## Exploratory Testing
+- is an ad hoc testing
+- Unscripted approch where testers explore the application without pre defined test cases, relying on intuition and experience
+
+## Aplha Tetsting
+- Done by internal teams before Release
+
+## Beta Testing
+- Done by external useres before official Launch
+
+## Test Coverage
+- Measures how much of the applicationis tested
+- Code coverages (lines of code)
+- Functional coverage 
+- Requirement Coverage
+
+## Test Strategy
+- A high level doc outlining the overall approch, principles
+- To define the principles followed
+- high level guidence
+- High level overview 
+- Early in project
+- overall testing direction
+
+## Test Plan 
+- A detalied Doc describing specific activities, resources, schedules and responsibilities
+- How, when and what to test
+- Detailed instruction
+- After Test Strategy
+
