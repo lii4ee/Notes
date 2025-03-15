@@ -290,3 +290,13 @@ Tools - Jmeter, load runner
 `dropdown.selectByVisibleText("option1");`
 `dropdown.selectByIndex(2);`
 `dropdown.selectByValue("optionValue");`
+
+## Alerts
+`Alert alert = driver.switchTo().alert();`
+`alert.accept();`
+`alert.dismiss();`
+`alert.getText();`
+
+## Frames
+`driver.switchTo().frame("frameName");`
+`driver.switchTo().defaultContent();`
