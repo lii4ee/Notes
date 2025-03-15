@@ -301,3 +301,11 @@ Tools - Jmeter, load runner
 `driver.switchTo().frame("frameName");`<br>
 `driver.switchTo().defaultContent();`<br>
 
+## Handle multiple Window
+`String parentWindow = driver.getWindowHandle();`<br>
+`Set<String> allWindows = driver.getWindowHandles();`<br>
+`for(String window: allWindows)`<br>
+`{` <br>
+`   if(!window.equals(parentWindow))`<br>
+`   { driver.switchTo().window(window); `<br>
+`} }`<br>
