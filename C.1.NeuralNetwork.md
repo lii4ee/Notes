@@ -1,4 +1,4 @@
-But What is a neural network? by 3blue1brown
+# But What is a neural network? by 3blue1brown
 
 Machine Learning Neural Network
 
