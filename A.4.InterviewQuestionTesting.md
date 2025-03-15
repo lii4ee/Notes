@@ -1,4 +1,4 @@
-Software Development and Testing
+# Software Development and Testing
 
     SDLC
         1. Planning and Requirement Analysis 
@@ -14,8 +14,9 @@ Software Development and Testing
         6. Maintenance and Updates
             Monitor performance, ensure stability and scalability.
 
-Agile Development
+# Agile Development
     Relies on frequent collaboration and communication refered as Agile Cerimonies
+
         1. Sprint Planning
             Product owner prioritizes the backlog,
             Team Selects backlog items to work on,
