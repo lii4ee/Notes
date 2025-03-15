@@ -286,17 +286,18 @@ Tools - Jmeter, load runner
 - WebElements returns a list, if nothing if found returns a empty list
 
 ## Dropdown in selenium
-`Select dropdown = new Select(driver.findElement(By.id("idName")));`
-`dropdown.selectByVisibleText("option1");`
-`dropdown.selectByIndex(2);`
-`dropdown.selectByValue("optionValue");`
+`Select dropdown = new Select(driver.findElement(By.id("idName")));`<br>
+`dropdown.selectByVisibleText("option1");`<br>
+`dropdown.selectByIndex(2);`<br>
+`dropdown.selectByValue("optionValue");`<br>
 
 ## Alerts
-`Alert alert = driver.switchTo().alert();`
-`alert.accept();`
-`alert.dismiss();`
-`alert.getText();`
+`Alert alert = driver.switchTo().alert();`<br>
+`alert.accept();` <br>
+`alert.dismiss();`<br>
+`alert.getText();`<br>
 
 ## Frames
-`driver.switchTo().frame("frameName");`
-`driver.switchTo().defaultContent();`
+`driver.switchTo().frame("frameName");`<br>
+`driver.switchTo().defaultContent();`<br>
+
