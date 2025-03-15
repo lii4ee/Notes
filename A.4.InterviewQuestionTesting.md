@@ -1,16 +1,16 @@
 ## Software Development and Testing
 ### SDLC
-- **1. Planning and Requirement Analysis** 
+1. **Planning and Requirement Analysis** 
     Business needs and Project fesability
-- **2. System Design** 
+2. **System Design** 
     Create Architectural and detailed design specification
-- **3. Implementation**
+3. **Implementation**
     Convert Design into source code
-- **4. Testing and Integration**
+4. **Testing and Integration**
     Detect and fix Bugs, Unit, Integration, System testing.
-- **5. Deployment**
+5. **Deployment**
     Deploy to production environment
-- **6. Maintenance and Updates**
+6. **Maintenance and Updates**
     Monitor performance, ensure stability and scalability.
    
 ## Agile Development
@@ -87,3 +87,38 @@ Relies on frequent collaboration and communication refered as Agile Cerimonies
 ## Black box testing
 - Does not need the knowledge of the internal code structure
 - Focuses on input and output
+
+## White box testing
+- Testers have knowledge of the internal working of the application and tests logic, loops and conditions
+
+## Smoke Testing
+- A high level test to check if the basic functionality of the application are working
+
+## Sanity testing
+- A focused test to verify specific functionality after minor changes or bug fixes
+
+## Test Case 
+- A set of steps, inputs, expected results to validate a specific function
+
+## Test Scenario
+- A high level description of what needs to be tested withut specific steps
+
+## Severity 
+- Impact of the defect on the functionality
+  - Critical, high, medium, low
+
+## Priority 
+- How urgent the defect needs to be fixed 
+  - High, medium, low
+*Login button missing (**High severity, high priority**)*
+
+## Performance Testing
+- Evaluates the speed, responsiveness and stability of an application under load.
+1. Load Testing
+   - System Behavior under expected load
+2. Stress Testing
+   - Pushes system beyond limits to find stability
+3. Spike Testing
+   - Tests sudden surges in traffic
+Tools - Jmeter, load runner
+
