@@ -81,4 +81,9 @@ Relies on frequent collaboration and communication refered as Agile Cerimonies
     - Executing the code
 
 ## Regression testing
-  - 
+  - Ensures the recent changes in the code base do not negatively impact ehe existing functionality 
+  - It is performed after bug fix, updates, or enhancement.
+
+## Black box testing
+- Does not need the knowledge of the internal code structure
+- Focuses on input and output
