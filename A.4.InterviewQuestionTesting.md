@@ -1,16 +1,16 @@
 ## Software Development and Testing
 ### SDLC
-**1. Planning and Requirement Analysis** 
+- **1. Planning and Requirement Analysis** 
     Business needs and Project fesability
-**2. System Design** 
+- **2. System Design** 
     Create Architectural and detailed design specification
-**3. Implementation**
+- **3. Implementation**
     Convert Design into source code
-**4. Testing and Integration**
+- **4. Testing and Integration**
     Detect and fix Bugs, Unit, Integration, System testing.
-**5. Deployment **
+- **5. Deployment**
     Deploy to production environment
-**6. Maintenance and Updates**
+- **6. Maintenance and Updates**
     Monitor performance, ensure stability and scalability.
    
 ## Agile Development
