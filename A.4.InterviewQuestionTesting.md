@@ -302,15 +302,13 @@ Tools - Jmeter, load runner
 `driver.switchTo().defaultContent();`<br>
 
 ## Handle multiple Window
-`String parentWindow = driver.getWindowHandle();`<br>
-`Set<String> allWindows = driver.getWindowHandles();`<br>
-`for(String window: allWindows)`<br>
-`{` <br>
-`   if(!window.equals(parentWindow))`<br>
-`   { driver.switchTo().window(window); }`<br>
-`}`<br>
+```String parentWindow = driver.getWindowHandle();
+Set<String> allWindows = driver.getWindowHandles();
+for(String window: allWindows)
+{
+  if(!window.equals(parentWindow))
+  { 
+    driver.switchTo().window(window); 
+  }
+}```
 
-```helas
-asdfasd
-asdf
-lo```
