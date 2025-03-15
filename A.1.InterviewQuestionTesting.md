@@ -1,7 +1,7 @@
 # Software Development and Testing
 ## SDLC
 1. **Planning and Requirement Analysis** 
-    Business needs and Project fesability
+    Business needs and Project feasibility
 2. **System Design** 
     Create Architectural and detailed design specification
 3. **Implementation**
@@ -354,7 +354,7 @@ PageFactory.initElements(driver, this);
 ```
 - is used to initilise in the constructor for webelement
 
-## Screen Shot
+## Screenshot
 ```
 @After
 public void Screenshots(Scenario SceneObj)
@@ -375,8 +375,10 @@ js.executeScript("window.scrollBy(0,500)");
 
 ## Actions
 ```
-Actions action = new Action(driver);
+Action action = new Action(driver);
 WebElement element = driver.findElement(By.id("id"));
 action.moveToElement(element).perform();
 ```
 
+# Java
+## JDK, JRE, JVM
