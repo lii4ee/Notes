@@ -172,7 +172,7 @@ Tools - Jmeter, load runner
   - Min 
   - Max just inside
   - Max just outside
-- For a feild 1 - 100
+- For a field 1 - 100
   - TC would be
     - 0
     - 1
