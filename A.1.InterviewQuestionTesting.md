@@ -382,3 +382,107 @@ action.moveToElement(element).perform();
 
 # Java
 ## JDK, JRE, JVM
+- **JVM**: VM that runs Java byte code
+- **JRE**: has JVM and set of libraries needed to run java program
+- **JDK**: includes JRE along with tools like compliers and debuggers
+
+## Method overloading vs Overriding 
+- Method overloading - Same Method name that has diferent parameters
+- Methond overriding - Sub class provides implementation of method in super class with same name and parameters
+
+## String vs StringBuilder vs StringBuffer
+- String is immutable 
+- StringBuilder is not thread safe meant for single thread thus the fastest
+- StringBuffer is thread safe and mutable
+
+## Cheacked exception vs Uncheacked 
+- **Checked Exception**:
+  - checked at complie time
+  - They Must be caught or declared using throws
+  - eg
+    - IOException
+    - SQLException
+- **Unchecked Exception**:
+  - Occurs at run time 
+  - Doesn't needs to be handled
+  - eg
+    - NullPointerException
+    - ArrayIndexOutOfBound
+
+## Interface
+- is a reference type similar to class that contains only constants, methods, signatures, default method, static method
+- Cannot have instances or constructors
+- A class implements an interface to provide implementation for the abstract methods in it
+
+## Super and This
+- **This**: Referes to the current object, instance variable, methods or constructor
+- **Super**: referes to the superclass (Parent class) 
+  - Used to access variables and methods of parent class
+
+## Lambda
+- pass a method as an argument to a method without writing a seprate class
+
+## Inheritance:
+- allows a class to inherit properties and methods from another class thus promoting re-use and establish relationships
+- Extends
+- Implements 
+
+## Polymorphism
+- Method Overloading
+- Method OverRiding
+
+## Encapsuation
+- is a concept of wrapping the data and methods that operate on the data into a single class
+- It involves controlling access to data by making fields PRIVATE and providing PUBLIC methods (getters and setters) to access or modify them
+
+## Abstraction
+- Hiding implementation details and showing only the essential features of a object 
+- Achieved using abstract classes and interface
+
+## Abstract class
+- cannot be instantiated on its own and must be inherited 
+- it can have abstract and non abstract methods
+
+## Interface
+- A contract that defines methods that a class must implement
+
+## Java Collections
+- Framework that provides architecture 
+  - Interfaces
+    - List
+    - Set
+    - Queue
+    - Map
+    - etc
+  - Implementations
+    - Arraylist
+    - HashSet
+    - HashMap
+    - PriorityQueue
+  - Algorithms
+    - Sorting
+    - Searching
+
+**Map**: TreeMap, LinkedHashMap
+**Set**: HashSet, TreeSet, LinkedHashSet, EnumSet
+
+## Iterator
+- Privides a way to traverse through a collection
+- hasNext(): Returns true
+- next(): teturns the next element
+
+## HashMap vs HashTable
+- **HashMap** 
+  - allows null values and keys
+  - Not snchronized 
+  - so not Thread safe
+- **HashTable**
+  - Synchoronized 
+  - thread safe
+  - does not allow null keys or values
+  - *out dated*
+
+## volatile
+- keyword used to indicate variable could be changed by different threads
+- permits caching the variable locally in the thread
+- is public to all thread.
