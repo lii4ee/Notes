@@ -127,7 +127,7 @@ Complements
 
 ---
 | Concept      | Formula                        | Order Matters? |
-|--------------|-------------------------------|---------------|
+|--------------|--------------------------------------|---------------|
 | Permutation  | n!                            | Yes           |
 | Variation    | n! / (n-p)! (no rep) <br> n^p (rep) | Yes           |
 | Combination  | n! / [p! * (n-p)!]            | No            |
