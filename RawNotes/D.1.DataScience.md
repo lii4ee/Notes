@@ -126,13 +126,12 @@ Complements
 ### **Summary Table**
 
 ---
-| Concept      | Formula &nbsp &nbsp &nbsp &nbsp         | Order Matters? |
+| Concept      | Formula                       | Order Matters? |
 |--------------|-------------------------------|---------------|
 | Permutation  | n!                            | Yes           |
 | Variation    | n! / (n-p)! (no rep) <br> n^p (rep) | Yes           |
 | Combination  | n! / [p! * (n-p)!]            | No            |
 ---
-
 
 We can say that all the different permutations of a single combination are different variations
 
@@ -175,3 +174,4 @@ p(A|B) = [p(B|A) · p(A)] / p(B)
 - **p(B|A):** Probability of B given A (likelihood)
 - **p(A):** Probability of A (prior)
 - **p(B):** Probability of B (evidence)
+
