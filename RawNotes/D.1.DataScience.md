@@ -126,7 +126,7 @@ Complements
 ### **Summary Table**
 
 ---
-| Concept      | Formula &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                        | Order Matters? |
+| Concept      | Formula &nbsp &nbsp &nbsp &nbsp         | Order Matters? |
 |--------------|-------------------------------|---------------|
 | Permutation  | n!                            | Yes           |
 | Variation    | n! / (n-p)! (no rep) <br> n^p (rep) | Yes           |
