@@ -104,24 +104,24 @@ Complements
 
 
 ## Combinatorics
-    - permutation
-      - Pn = n*(n-1)*(n-2).... = n!
-      - (n+k)! = n!*(n+1)*(n+2)...*(n+k)
-      - (n-k)! = n!/ (n-k+1)*(n-k+2)*.....*(n-k+k)
-      -  
-    - variation
-      - Repetition
-        - the total number of ways you can pick and arrange some elements in a given set
-        - V bar of n and p  = n power p
-        - V bar of n and p  = n ^ p
-          -  n the total number of elements we have avilable
-          -  p the number of positions we need to fill
-       - Without Repetition
-         - when we can't use the same element twice
-         - v of n and p = n! / (n-p)!
-         - arranging p elements out of a total number n
-    - Combinations
-      - P of n = n!
+- permutation
+  - Pn = n*(n-1)*(n-2).... = n!
+  - (n+k)! = n!*(n+1)*(n+2)...*(n+k)
+  - (n-k)! = n!/ (n-k+1)*(n-k+2)*.....*(n-k+k)
+  -  
+- variation
+  - Repetition
+    - the total number of ways you can pick and arrange some elements in a given set
+    - V bar of n and p  = n power p
+    - V bar of n and p  = n ^ p
+      -  n the total number of elements we have avilable
+      -  p the number of positions we need to fill
+   - Without Repetition
+     - when we can't use the same element twice
+     - v of n and p = n! / (n-p)!
+     - arranging p elements out of a total number n
+- Combinations
+  - P of n = n!
 
 ### **Summary Table**
 
@@ -144,17 +144,27 @@ combination 120
 permutation 6
 
 What's the number of combination for choosing p-many elements out of a sample space of n elements?
-```C(n, p) = n! / [p! * (n-p)!]```
+```
+C(n, p) = n! / [p! * (n-p)!]
+```
 
 ## Statatics
-```p(A|B) != p(B|A)```
+```
+p(A|B) != p(B|A)
+```
 
 Law of total probability
-```p(A) = p(A|B1) * P(B1) + p(A|B2) * P(B2)....```
+```
+p(A) = p(A|B1) * P(B1) + p(A|B2) * P(B2)....
+```
 If events B₁, B₂, ..., Bₙ form a partition of the sample space (i.e., they are mutually exclusive and exhaustive), then for any event A:
-```p(A) = p(A|B₁)·p(B₁) + p(A|B₂)·p(B₂) + ... + p(A|Bₙ)·p(Bₙ)```
+```
+p(A) = p(A|B₁)·p(B₁) + p(A|B₂)·p(B₂) + ... + p(A|Bₙ)·p(Bₙ)
+```
 This law allows you to compute the probability of A by considering all the different ways A can occur via the events 
-```B₁, B₂, ..., Bₙ.p(A) = p(A|B₁)·p(B₁) + p(A|B₂)·p(B₂) + ... + p(A|Bₙ)·p(Bₙ)```
+```
+B₁, B₂, ..., Bₙ.p(A) = p(A|B₁)·p(B₁) + p(A|B₂)·p(B₂) + ... + p(A|Bₙ)·p(Bₙ)
+```
 
 ### Bayes Law
 **Bayes Law** (or Bayes’ Theorem) describes how to update the probability of a hypothesis (event A) given new evidence (event B). The formula is:
